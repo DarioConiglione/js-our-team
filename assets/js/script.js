@@ -38,3 +38,14 @@ const teamMembers = [
 ];
 
 console.log("it works");
+
+
+const cardEl = document.querySelector("#members, .card");
+console.log(cardEl);
+
+for (let i = 0; i < teamMembers.length; i++) {
+  const thisMember = teamMembers[i];
+  console.log(thisMember);
+  
+}
+
